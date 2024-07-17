@@ -1,0 +1,128 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hostel-info {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #f0f0e9; /* Pastel yellow */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hostel-image {
+    flex: 0 0 45%; /* Increase width of the image */
+    margin-right: 20px;
+}
+
+.hostel-image img {
+    width: 100%; /* Ensure image takes full width of container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px; /* Set maximum width for image */
+    max-height: 300px; /* Set maximum height for image */
+}
+
+.hostel-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.hostel-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hostel-details p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.reviews {
+    margin-bottom: 30px;
+    background-color: #f5eded; /* Pastel pink */
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+}
+
+.user-info {
+    margin-bottom: 15px;
+}
+
+.user-info p {
+    font-weight: bold;
+    color: #333;
+}
+
+.user-review {
+    margin-top: 10px;
+    color: #666;
+}
+
+.empty {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+.write-review {
+    background-color: #b9e3c6; /* Pastel green */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.write-review:hover {
+    transform: translateY(-5px);
+}
+
+.write-review h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.write-review form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color:black;
+}
+
+.end{
+border: none;
+background-color: aqua;
+padding:8px;
+cursor: pointer;
+}
